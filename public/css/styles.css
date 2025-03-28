@@ -1,0 +1,295 @@
+/* Add spacing to the body */
+html,body {
+    font-family: 'Lato', sans-serif;
+    margin: 20px; /* Add margin around the body */
+    padding: 20px; /* Add padding around the body */
+    background-color: #e3f2fd;
+}
+
+/* Smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add spacing between sections */
+main section {
+    margin-bottom: 40px; /* Add space between sections */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for forms */
+form {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Add spacing between form elements */
+form input, form select, form textarea, form button {
+    margin-bottom: 15px; /* Add spacing between elements */
+}
+
+form button {
+    background-color: #1565c0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0d47a1;
+}
+
+/* Style for the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style for individual cards */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Three cards per row */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #1565c0;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.card button.edit {
+    background-color: #1565c0;
+    color: white;
+}
+
+.card button.edit:hover {
+    background-color: #0d47a1;
+}
+
+.card button.remove {
+    background-color: #f44336;
+    color: white;
+}
+
+.card button.remove:hover {
+    background-color: #d32f2f;
+}
+
+/* Add spacing to the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between cards */
+    justify-content: center;
+}
+
+/* Style for the header */
+header {
+    background-color: #1565c0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Make the header rounded */
+    margin-bottom: 20px; /* Detach it from the navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the navbar */
+nav {
+    background-color: #1565c0;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 8px; /* Make the navbar rounded */
+    margin-bottom: 20px; /* Detach it from the "Manage Packages" section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button.edit {
+    background-color: #1565c0;
+    color: white;
+}
+
+.card button.remove {
+    background-color: #f44336;
+    color: white;
+}
+
+form button.add {
+    background-color: #4caf50 !important; /* Force green color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button.add:hover {
+    background-color: #45a049 !important; /* Darker green on hover */
+}
+
+/* Style for edit and remove buttons in the employee section */
+button.edit-employee {
+    background-color: #1565c0; /* Blue for edit */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button.edit-employee:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+}
+
+button.remove-employee {
+    background-color: #f44336; /* Red for remove */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button.remove-employee:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Style for package rows */
+.package-row {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the select dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none; /* Remove default arrow */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #1565c0;
+}
+
+/* Center the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1565c0;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style for the Print Invoice button */
+button.print-invoice {
+    background-color: #1565c0; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button.print-invoice:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+}
